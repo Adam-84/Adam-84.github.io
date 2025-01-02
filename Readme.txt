@@ -1,33 +1,35 @@
-# Portfolio - Adam GHAJDAOUI
+#Portfolio - Adam GHAJDAOUI
 
-Bienvenue sur mon portfolio ! Ce projet met en avant mes compétences et projets réalisés dans le cadre de ma formation en **BTS SIO (Services Informatiques aux Organisations)**, option **SLAM**. Vous y découvrirez mon travail en **front-end**, ma maîtrise de la **modélisation UML** et mes projets impliquant des bases de données avec **SQL**.
-
----
-
-## 🎯 Objectifs du Portfolio
-
-- Présenter mes compétences acquises durant ma formation et mon apprentissage à l'entreprise.
-- Exposer les projets que j'ai réalisés (scolaires et professionnels).
+Bienvenue sur mon portfolio ! Ce projet met en lumière mes compétences et mes réalisations dans le cadre de ma formation en BTS SIO (Services Informatiques aux Organisations), option SLAM. Vous y trouverez une présentation de mon travail en développement front-end, en modélisation UML, ainsi que mes projets impliquant des bases de données avec SQL.
 
 ---
 
-## 🛠️ Compétences techniques
+##🎯 Objectifs du Portfolio
 
-- **Front-end** : HTML5, CSS3, JavaScript, frameworks si applicable (ex. Bootstrap, React).
-- **Modélisation UML** : Création de diagrammes (use case, classes, séquences) pour représenter des systèmes d'information.
-- **Base de données SQL** : Conception, requêtes, gestion de bases de données (MySQL, PostgreSQL, etc.).
-
----
-
-## 🚀 Fonctionnalités de ce portfolio
-
-- **Accueil** : Introduction à mon parcours et à mes compétences.
-- **Projets** : Une sélection de mes travaux, avec des détails sur le rôle que j'ai joué et les technologies utilisées.
-- **Contact** : Informations pour me joindre facilement.
+-Mettre en valeur les compétences acquises au cours de ma formation et de mon apprentissage en entreprise.
+-Présenter les projets que j'ai menés, tant académiques que professionnels.
 
 ---
 
-## 🌐 Déploiement
+##🛠️ Compétences Techniques
 
-Le portfolio est disponible en ligne ici :  
-https://adam-84.github.io/  
+-Front-end : Développement avec HTML5, CSS3, JavaScript, et utilisation de frameworks tels que Bootstrap ou React si applicable.
+-Modélisation UML : Création et analyse de diagrammes (use cases, classes, séquences) pour modéliser des systèmes d'information complexes.
+-Base de données SQL : Conception et gestion de bases de données, rédaction de requêtes SQL (MySQL, PostgreSQL, etc.).
+
+---
+
+##🚀 Fonctionnalités du Portfolio
+
+---
+
+-Accueil : Introduction à mon parcours et un aperçu de mes compétences.
+-Projets : Une galerie de mes travaux, accompagnée de détails sur mon rôle, les technologies utilisées et les résultats obtenus.
+-Contact : Une section dédiée pour me joindre facilement.
+
+---
+
+##🌐 Déploiement
+
+Vous pouvez explorer mon portfolio en ligne via ce lien :
+adam-84.github.io
