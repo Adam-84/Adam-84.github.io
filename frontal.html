@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sequenceur</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+<!--     <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div> -->
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center" style="margin-top: 50%;">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Adam GHAJDAOUI</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://github.com/Adam-84" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/compte-de-adam-ghajdaoui/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#moi" class="active"><i class="bi bi-house navicon"></i>Accueil</a></li>
+        <li><a href="#a_propos"><i class="bi bi-person navicon"></i> A propos de moi</a></li>
+        <li><a href="n #CV"><i class="bi bi-file-earmark-text navicon"></i> CV</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Activités effectués</a></li>
+        <li><a href="#parcours"><i class="bi bi-hdd-stack navicon"></i> Mon parcour scolaire</a></li>
+        
+        <li><a href="#documents"><i class="bi bi-envelope navicon"></i> Les documents</a></li>
+        <li><a href="#veille_techno"><i class="bi bi-hdd-stack navicon"></i> Veille technologique</a></li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Mise à jour TFT - Frontal</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Accueil</a></li>
+            <li class="current">Mise à jour TFT</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-12">
+            <div class="portfolio-description">
+              <h2>Documentation : Module "Mise à jour TFT"</h2>
+
+              <h3>Contexte</h3>
+              <p>Ce module a été développé dans le cadre de mon alternance pour gérer les déploiements de mises à jour sur les équipements embarqués des bus d’un réseau de transport public toulousain.</p>
+
+              <h3>Implémentation des appels API</h3>
+              <ul>
+                <li><strong>GET</strong> : fonctionnel, récupère les données attendues.</li>
+                <li><strong>DELETE</strong> : suppression opérationnelle.</li>
+                <li><strong>POST & PUT</strong> : corrigés après avoir identifié des problèmes de format et de droits.</li>
+              </ul>
+              <p>Un bug lié à un module externe impactant les requêtes DELETE/POST a été résolu.</p>
+
+              <h3>Améliorations de l’interface</h3>
+              <ul>
+                <li>Renommage de l’entête de détail d’une mise à jour en "Détails de la mise à jour".</li>
+                <li>Réorganisation du tableau des déploiements pour une meilleure lisibilité.</li>
+
+                <img src="assets/img/portfolio/entreprise-8.png" alt="Amélioration de l'interface" class="img-fluid rounded" />
+
+              </ul>
+
+              <h3>Tri dynamique des équipements</h3>
+              <ul>
+                <li>Filtrage par état : Pas à jour, Programmé, À jour.</li>
+                <li>Suppression de la colonne "État" pour plus de clarté.</li>
+              </ul>
+
+              <h3>Rafraîchissement automatique</h3>
+              <p>Les déploiements sont mis à jour toutes les 30 secondes automatiquement.</p>
+
+              <h3>Gestion des statuts</h3>
+              <ul>
+                <li>Non transmise</li>
+                <li>Transmise à au moins un équipement</li>
+                <li>Transmise à tous les équipements</li>
+                <li>Abandonnée</li>
+              </ul>
+              <p>Une mise à jour peut être marquée comme abandonnée.</p>
+
+              <h3>Logique d’affichage des mises à jour</h3>
+              <ul>
+                <li>Ordre : En cours > Déployée > Non transmise > Abandonnée</li>
+                <li>Tri secondaire sur le type et la description</li>
+              </ul>
+
+              <h3>Amélioration de la gestion des équipements</h3>
+              <ul>
+                <li>Ordre par priorité : Pas à jour > Programmé > À jour</li>
+              </ul>
+
+              <h3>Conclusion</h3>
+              <p>Le module "Mise à jour TFT" est désormais totalement fonctionnel et a été déployé avec succès en production.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+
+
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
