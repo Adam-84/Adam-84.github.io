@@ -830,7 +830,8 @@ section,
   height: 250px; /* ou une autre hauteur fixe si tu préfères */
   object-fit: contain;
   object-position: center;
-  background-color: #f8f9fa; /* optionnel : pour remplir le vide autour de l’image */
+  background-color: #494949; /* optionnel : pour remplir le vide autour de l’image */
+  border-radius: 5px;
   transition: 0.3s
 }
 
@@ -1295,4 +1296,12 @@ section,
   transform: scale(1.01);
   transition: all 0.3s ease;
   box-shadow: 0 0 25px rgba(0,0,0,0.1);
+}
+/*--------------------------------------------------------------
+# Document Section
+--------------------------------------------------------------*/
+
+.img-document {
+  width: 120px;
+  height: auto;
 }
